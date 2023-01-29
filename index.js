@@ -62,7 +62,20 @@ const questions = ([
 ]);
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = data => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./gen.README.md', data, err => {
+            if (err) {
+                reject (err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: console.log('Success! Your README is located in the "gen" folder.')
+            });
+        });
+    });
+};
 
 // TODO: Create a function to initialize app
 function init() {}
