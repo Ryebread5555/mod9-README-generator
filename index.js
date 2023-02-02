@@ -42,10 +42,10 @@ const questions = ([
 {
     type: "list",
     message: "What liscensing is being used?",
-    name: "licenses",
+    name: "license",
     choices: [
         "MIT",
-        "GPL"
+        "APACHE 2.0"
     ]
 },
 {
@@ -63,14 +63,14 @@ const questions = ([
 // TODO: Create a function to write README file
 const writeToFile = data => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./gen.README.md', data, err => {
+        fs.writeFile('./README.md', data, err => {
             if (err) {
                 reject (err);
                 return;
             }
             resolve({
                 ok: true,
-                message: console.log('Success! Your README is located in the "gen" folder.')
+                message: console.log('Success! Your README has been created!')
             });
         });
     });
