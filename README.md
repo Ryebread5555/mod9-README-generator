@@ -19,7 +19,7 @@
   nodejs
 
   ## Usage
-  To create README files for any future projects.
+  to create README Files for any future projects.
 
   ## Licenses
         This project is covered under the MIT license. click the license button at the top to learn more.
@@ -39,3 +39,6 @@
 
   ## Credits
   Ryan
+
+  ## Tutorial
+  ![](./assets/Tutorial.gif)
