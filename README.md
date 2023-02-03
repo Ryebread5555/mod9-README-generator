@@ -42,3 +42,5 @@ SO THAT I can quickly create a professional README for a new project
 ![](./assets/Tutorial.gif)
 
 ## Video
+
+https://user-images.githubusercontent.com/115953057/216509994-81c1dfcd-b884-451e-bef4-03e415c0e37e.mp4
